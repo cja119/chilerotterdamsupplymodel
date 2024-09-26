@@ -8,9 +8,11 @@ In order to run this model, a licence for gurobi is required, as is an installat
 To quick start this, clone the repository and run the following command to set up the conda environment:
 
 ```
-conda env create -f environment.yml'''
+conda env create -f environment.yml
+```
 
 Then activate the environemtn using the following
 
 ```
-source activate MIPSupplyChain```
+source activate MIPSupplyChain
+```
