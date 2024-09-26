@@ -1,3 +1,5 @@
+#!/bin/bash
+
 reconversion="False"
 vector="NH3"
 grid_connection="False"
