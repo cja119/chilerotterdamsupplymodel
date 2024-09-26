@@ -8,4 +8,5 @@ sys.path.append(module_folder_path)
 
 from OptimisationScripts.OptimisationModel import OptimModel
 
-solve = OptimModel.class_solve(key=sys.argv[1], feasibility = 1e-5, optimality = 1e-8, mip_percentage = 7, random_seed=7827382,parallel=False)
+solve = OptimModel.class_solve(key=sys.argv[1], feasibility = 1e-5, optimality = 1e-8, mip_percentage = 5, random_seed=7827382,parallel=False)
+solve.generate_plots(solve)

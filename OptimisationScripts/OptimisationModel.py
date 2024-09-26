@@ -95,7 +95,7 @@ class OptimModel:
             with open(cls.key+'.pickle', 'wb') as f:
                 dump(cls.instance, f)
             chdir(dir) 
-            pass
+            return cls
 
     @classmethod
     def get_solve(cls,key,reinitialise = False):
