@@ -8,10 +8,10 @@ In order to run this model, a licence for gurobi is required, as is an installat
 To quick start this, clone the repository and run the following bash command to set up the conda environment:
 
 ```
-conda env create -f environment.yml
+conda env create -f MIPSupplyChain.yml
 ```
 
-Then activate the environemtn using the following:
+Then activate the environment using the following:
 
 ```
 source activate MIPSupplyChain
@@ -19,5 +19,5 @@ source activate MIPSupplyChain
 To run the sample formulation, execute the bash script as follows
 
 ```
-bash /SolveModel.sh
+bash SolveModel.sh
 ```
