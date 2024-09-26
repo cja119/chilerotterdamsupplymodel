@@ -1,0 +1,85 @@
+
+Gurobi 11.0.3 (mac64[arm]) logging started Thu Sep 26 13:39:29 2024
+
+Set parameter LogFile to value "SampleModel.log"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[arm] - Darwin 23.4.0 23E214)
+
+CPU model: Apple M1 Pro
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 60667 rows, 41135 columns and 160546 nonzeros
+Model fingerprint: 0xd34f1c51
+Variable types: 39633 continuous, 1502 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 4e+05]
+  Objective range  [2e-04, 2e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+01, 7e+03]
+Presolve removed 28748 rows and 21548 columns
+Presolve time: 0.08s
+Presolved: 31919 rows, 19587 columns, 95798 nonzeros
+Variable types: 18085 continuous, 1502 integer (0 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   16349    7.3055987e+00   0.000000e+00   6.873222e-01      5s
+   22749    3.4971672e+00   0.000000e+00   9.625668e-01     10s
+
+Root relaxation: interrupted, 24859 iterations, 11.70 seconds (26.68 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0               -          -      -     -   11s
+H    0     0                    9011.0723417          -      -     -   11s
+
+Explored 1 nodes (24859 simplex iterations) in 11.84 seconds (26.96 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 9011.07 
+
+Solve interrupted
+Best objective 9.011072341674e+03, best bound -, gap -
+
+Gurobi 11.0.3 (mac64[arm]) logging started Thu Sep 26 13:45:11 2024
+
+Set parameter LogFile to value "SampleModel.log"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[arm] - Darwin 23.4.0 23E214)
+
+CPU model: Apple M1 Pro
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 60667 rows, 41135 columns and 160546 nonzeros
+Model fingerprint: 0xd34f1c51
+Variable types: 39633 continuous, 1502 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 4e+05]
+  Objective range  [2e-04, 2e-04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+01, 7e+03]
+Presolve removed 28748 rows and 21548 columns
+Presolve time: 0.08s
+Presolved: 31919 rows, 19587 columns, 95798 nonzeros
+Variable types: 18085 continuous, 1502 integer (0 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   15739    8.4712639e+00   0.000000e+00   1.633389e-01      5s
+
+Root relaxation: interrupted, 15802 iterations, 4.94 seconds (10.70 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0               -          -      -     -    5s
+H    0     0                    9011.0723417          -      -     -    5s
+
+Explored 1 nodes (15802 simplex iterations) in 5.08 seconds (10.98 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 9011.07 
+
+Solve interrupted
+Best objective 9.011072341674e+03, best bound -, gap -
