@@ -1,7 +1,7 @@
-# Chile-Rotterdam Supply Chain Model
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-
+# Chile-Rotterdam Supply Chain Model [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Open Source Model for a Hydrogen Supply Chain from Chile to Rotterdam
+
+ 
 
 ## Dependancies
 In order to run this model, a licence for gurobi is required, as is an installation of conda. 
