@@ -1,7 +1,7 @@
 # Chile-Rotterdam Supply Chain Model [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Open Source Model for a Hydrogen Supply Chain from Chile to Rotterdam
 
-![Supply Chain](SupplyChainDiagram.png)
+![Supply Chain](images/SupplyChainDiagram.png)
  
 
 ## Dependencies
@@ -28,6 +28,9 @@ bash SolveModel.sh
 In order to manually change parameters, head to the pre-optimisation datastore and change the values of the parameters in the middle of the upper and lower bounds. These are taken as default values for the model when solving. Other, formualation specific, parameters can be found in the 'Executionscripts/BuildModel.py' file, this is accessed prior to each model solution. 
 
 ## Sensitivity Studies
+The below figure shows the mathematical framework for the global sensitivity studies:
+
+![Supply Chain](images/GlobalSensitivity.png)
 
 The files to generate the global sensitivity studies, but the execution scripts are omitted. These were solved on a HPC cluster and, as such, are coded in a somewhat proprietary manner. Any user wishing to perform these solves is encouraged to produce a suitable shell script that can parallelise the solves for their system. The global sensitivity scripts are coded in such a manner that they solve in three stages: 
   1) The first stage builds the models and saves them in the 'PreSolvedModelsFolder'. This step is computed serially.
