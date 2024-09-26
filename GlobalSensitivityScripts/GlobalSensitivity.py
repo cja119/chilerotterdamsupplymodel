@@ -246,9 +246,7 @@ class GSA:
             with open(key+'_GSA_Class_EE.pickle', 'rb') as f:
                 cls = load(f)
             chdir(dir)
-        
-        
-        
+
         cls.EEs = empty((cls.number_trajectories,len(cls.keys_list)),dtype=float)
         cls.means = empty(len(cls.keys_list))
         cls.stds = empty(len(cls.keys_list))
