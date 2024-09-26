@@ -1,4 +1,4 @@
-# ChileRotterdamSupplyModel
+# Chile-Rotterdam Supply Chain Model
 Open Source Model for a Hydrogen Supply Chain from Chile to Rotterdam
 
 ## Dependancies
