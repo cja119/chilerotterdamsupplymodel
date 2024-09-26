@@ -5,7 +5,7 @@ Open Source Model for a Hydrogen Supply Chain from Chile to Rotterdam, the model
  
 
 ## Dependencies
-In order to run this model, a licence for [gurobi](www.gurobi.com) is required, as is an installation of [conda](https://docs.anaconda.com/miniconda/). 
+In order to run this model, a licence for [gurobi](https://www.gurobi.com/) is required, as is an installation of [conda](https://docs.anaconda.com/miniconda/). 
 
 ## Quick Start
 For a quick start, clone the repository and run the following bash command from within the repository, to set up the conda environment:
