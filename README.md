@@ -10,4 +10,4 @@ To quick start this, clone the repository and run the following commands to set 
 ```
 conda env create -f environment.yml
 
-source activate MIPSupplyChain```
+source activate MIPSupplyChain
