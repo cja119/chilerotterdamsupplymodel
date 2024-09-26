@@ -5,7 +5,7 @@ Open Source Model for a Hydrogen Supply Chain from Chile to Rotterdam
 In order to run this model, a licence for gurobi is required, as is an installation of conda. 
 
 ## Quick Start
-To quick start this, clone the repository and run the following bash command to set up the conda environment:
+For a quick start, clone the repository and run the following bash command to set up the conda environment:
 
 ```
 conda env create -f MIPSupplyChain.yml
