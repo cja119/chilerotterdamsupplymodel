@@ -43,9 +43,12 @@ bash SolveModel.sh
 In order to manually change parameters, head to the pre-optimisation datastore and change the values of the parameters in the middle of the upper and lower bounds. These are taken as default values for the model when solving. Other, formulation specific, parameters can be found in the 'Executionscripts/BuildModel.py' file, this is accessed prior to each model solution. 
 
 ## Weather Data and TimeSeries Clustering
-The clustered weatherdata csv can be found in the 'PreOptimisationDataStore' folder, along with the appropriatley clustered demand signal and timeseries datasets. The unclustered dataset can also be found in this folder. Running the python scripts 'GetWeatherData.py' will grab the weatherdata files from the NASA Merra-2 database. This is achieved using the [EarthAccess Library](https://github.com/emilylaiken/merradownload) (N.B., this will require an [EarthData](https://urs.earthdata.nasa.gov/) account, with 'NASA GESDISC DATA ARCHIVE' activated under the applications tab). Once set up, save your username and password as environment variables using the following script:
+The clustered weatherdata csv can be found in the 'PreOptimisationDataStore' folder, along with the appropriatley clustered demand signal and timeseries datasets. The unclustered dataset can also be found in this folder. Running the python scripts 'GetWeatherData.py' will grab the weatherdata files from the NASA Merra-2 database. This is achieved using the [EarthAccess Library](https://github.com/emilylaiken/merradownload) (N.B., this will require an [EarthData](https://urs.earthdata.nasa.gov/) account, with 'NASA GESDISC DATA ARCHIVE' activated under the applications tab). Once set up, save your username and password as environment variables using the following shell commands:
 ```
 export EARTHDATA_USERNAME="Your_Username"
+```
+
+```
 export EARTHDATA_PASSWORD="Your_Password"
 ```
 The python file 'ClusterWeatherData.py' can then be used to generate the Culsters using Ward's method. N.B., this will override the default clustered datasets saved in the abovementioned csv files. 
