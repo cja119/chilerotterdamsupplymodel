@@ -1,7 +1,7 @@
 #!/bin/bash
 
 reconversion="False"
-vector="LH2"
+vector="NH3"
 grid_connection="False"
 
 key='SampleModel'

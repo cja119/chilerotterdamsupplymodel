@@ -20,7 +20,7 @@ from pyomo.environ import value as pyomo_value
 from os import getcwd,chdir
 from pickle import dump,load
 
-points = [(-57,-68),(-56,-67),(-55.33,-70.33),(-55.33,-71.33)]
+points = [(sys.argv[0],sys.argv[3]),(sys.argv[0],sys.argv[3]),(sys.argv[1],sys.argv[2]),(sys.argv[1],sys.argv[2])]
 start_date   =  np.datetime64('2022-01-01', 'ns') 
 end_date     = np.datetime64('2023-01-01', 'ns') 
 
@@ -32,8 +32,8 @@ weatherdata = Meteorological(date = (start_date,end_date),
                                 storage_location ="./WeatherData", 
                                 n_samp = 100, 
                                 sample_type = "Structured", 
-                                latitudes =(-57, -55.33), 
-                                longitudes =(-71.33, -67)
+                                latitudes =(sys.argv[0], sys.argv[1]), 
+                                longitudes =(sys.argv[2],sys.argv[3])
                                 )
 
 renewableenergy =    RenewableEnergy(weatherdata,
