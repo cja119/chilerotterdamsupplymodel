@@ -24,6 +24,21 @@ To run the sample formulation, execute the bash script as follows
 ```
 bash SolveModel.sh
 ```
+## Reproducing Publication Results
+In order to reproduce the results of the scenario analyses, in a terminal run:
+```
+nano SolveModel.sh
+```
+Then modify the following by coding in **one** of the values in each brackets, to create the eight different scneario permutations. It is reccomended to modify the key parameter value to ensure saved runs don't override eachother:
+```
+reconversion=("True","False")
+vector=("LH2","NH3")
+grid_connection=("True","False")
+```
+Run the scripts, using the following command:
+```
+bash SolveModel.sh
+```
 ## Parametric Modification
 In order to manually change parameters, head to the pre-optimisation datastore and change the values of the parameters in the middle of the upper and lower bounds. These are taken as default values for the model when solving. Other, formualation specific, parameters can be found in the 'Executionscripts/BuildModel.py' file, this is accessed prior to each model solution. 
 
