@@ -40,7 +40,7 @@ Run the scripts, using the following command:
 bash SolveModel.sh
 ```
 ## Parametric Modification
-In order to manually change parameters, head to the pre-optimisation datastore and change the values of the parameters in the middle of the upper and lower bounds. These are taken as default values for the model when solving. Other, formualation specific, parameters can be found in the 'Executionscripts/BuildModel.py' file, this is accessed prior to each model solution. 
+In order to manually change parameters, head to the pre-optimisation datastore and change the values of the parameters in the middle of the upper and lower bounds. These are taken as default values for the model when solving. Other, formulation specific, parameters can be found in the 'Executionscripts/BuildModel.py' file, this is accessed prior to each model solution. 
 
 ## Sensitivity Studies
 The below figure shows the mathematical framework for the global sensitivity studies:
