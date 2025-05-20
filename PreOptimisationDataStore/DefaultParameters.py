@@ -145,7 +145,7 @@ class Default_Params:
                                             ('LH2','large'):14160,              # t/d       This corresponds to 200,000 m3
                                             ('NH3','small'):32500,              # t/d       This corresponds to 50,000 m3
                                             ('NH3','medium'):65000,             # t/d       This corresponds to 100,000 m3
-                                            ('NH3','large'):32500               # t/d       This corresponds to 200,000 m3
+                                            ('NH3','large'):130000               # t/d       This corresponds to 200,000 m3
                                                 },
                         'fuel_consumption':{('LH2','small'):21.5/24*(36/23),    # t/h       This corresponds to 50,000 m3
                                             ('LH2','medium'):34.35/24*(36/23),  # t/h       This corresponds to 100,000 m3
